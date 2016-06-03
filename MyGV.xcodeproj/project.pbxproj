@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BF01CD51D01DEE80036F13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF01CD41D01DEE80036F13F /* AppDelegate.swift */; };
+		9BF01CD71D01DEE80036F13F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF01CD61D01DEE80036F13F /* ViewController.swift */; };
+		9BF01CDA1D01DEE80036F13F /* MyGV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BF01CD81D01DEE80036F13F /* MyGV.xcdatamodeld */; };
+		9BF01CDC1D01DEE80036F13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF01CDB1D01DEE80036F13F /* Assets.xcassets */; };
+		9BF01CDF1D01DEE80036F13F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF01CDD1D01DEE80036F13F /* Main.storyboard */; };
+		9BF01CEA1D01DEE80036F13F /* MyGVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF01CE91D01DEE80036F13F /* MyGVTests.swift */; };
+		9BF01CF51D01DEE80036F13F /* MyGVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF01CF41D01DEE80036F13F /* MyGVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BF01CE61D01DEE80036F13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF01CC91D01DEE80036F13F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF01CD01D01DEE80036F13F;
+			remoteInfo = MyGV;
+		};
+		9BF01CF11D01DEE80036F13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF01CC91D01DEE80036F13F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF01CD01D01DEE80036F13F;
+			remoteInfo = MyGV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BF01CD11D01DEE80036F13F /* MyGV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF01CD41D01DEE80036F13F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BF01CD61D01DEE80036F13F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BF01CD91D01DEE80036F13F /* MyGV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyGV.xcdatamodel; sourceTree = "<group>"; };
+		9BF01CDB1D01DEE80036F13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BF01CDE1D01DEE80036F13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BF01CE01D01DEE80036F13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF01CE51D01DEE80036F13F /* MyGVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF01CE91D01DEE80036F13F /* MyGVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGVTests.swift; sourceTree = "<group>"; };
+		9BF01CEB1D01DEE80036F13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF01CF01D01DEE80036F13F /* MyGVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF01CF41D01DEE80036F13F /* MyGVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGVUITests.swift; sourceTree = "<group>"; };
+		9BF01CF61D01DEE80036F13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BF01CCE1D01DEE80036F13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF01CE21D01DEE80036F13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF01CED1D01DEE80036F13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BF01CC81D01DEE80036F13F = {
+			isa = PBXGroup;
+			children = (
+				9BF01CD31D01DEE80036F13F /* MyGV */,
+				9BF01CE81D01DEE80036F13F /* MyGVTests */,
+				9BF01CF31D01DEE80036F13F /* MyGVUITests */,
+				9BF01CD21D01DEE80036F13F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BF01CD21D01DEE80036F13F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BF01CD11D01DEE80036F13F /* MyGV.app */,
+				9BF01CE51D01DEE80036F13F /* MyGVTests.xctest */,
+				9BF01CF01D01DEE80036F13F /* MyGVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BF01CD31D01DEE80036F13F /* MyGV */ = {
+			isa = PBXGroup;
+			children = (
+				9BF01CD41D01DEE80036F13F /* AppDelegate.swift */,
+				9BF01CD61D01DEE80036F13F /* ViewController.swift */,
+				9BF01CDB1D01DEE80036F13F /* Assets.xcassets */,
+				9BF01CDD1D01DEE80036F13F /* Main.storyboard */,
+				9BF01CE01D01DEE80036F13F /* Info.plist */,
+				9BF01CD81D01DEE80036F13F /* MyGV.xcdatamodeld */,
+			);
+			path = MyGV;
+			sourceTree = "<group>";
+		};
+		9BF01CE81D01DEE80036F13F /* MyGVTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF01CE91D01DEE80036F13F /* MyGVTests.swift */,
+				9BF01CEB1D01DEE80036F13F /* Info.plist */,
+			);
+			path = MyGVTests;
+			sourceTree = "<group>";
+		};
+		9BF01CF31D01DEE80036F13F /* MyGVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF01CF41D01DEE80036F13F /* MyGVUITests.swift */,
+				9BF01CF61D01DEE80036F13F /* Info.plist */,
+			);
+			path = MyGVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BF01CD01D01DEE80036F13F /* MyGV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF01CF91D01DEE80036F13F /* Build configuration list for PBXNativeTarget "MyGV" */;
+			buildPhases = (
+				9BF01CCD1D01DEE80036F13F /* Sources */,
+				9BF01CCE1D01DEE80036F13F /* Frameworks */,
+				9BF01CCF1D01DEE80036F13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyGV;
+			productName = MyGV;
+			productReference = 9BF01CD11D01DEE80036F13F /* MyGV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BF01CE41D01DEE80036F13F /* MyGVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF01CFC1D01DEE80036F13F /* Build configuration list for PBXNativeTarget "MyGVTests" */;
+			buildPhases = (
+				9BF01CE11D01DEE80036F13F /* Sources */,
+				9BF01CE21D01DEE80036F13F /* Frameworks */,
+				9BF01CE31D01DEE80036F13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF01CE71D01DEE80036F13F /* PBXTargetDependency */,
+			);
+			name = MyGVTests;
+			productName = MyGVTests;
+			productReference = 9BF01CE51D01DEE80036F13F /* MyGVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BF01CEF1D01DEE80036F13F /* MyGVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF01CFF1D01DEE80036F13F /* Build configuration list for PBXNativeTarget "MyGVUITests" */;
+			buildPhases = (
+				9BF01CEC1D01DEE80036F13F /* Sources */,
+				9BF01CED1D01DEE80036F13F /* Frameworks */,
+				9BF01CEE1D01DEE80036F13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF01CF21D01DEE80036F13F /* PBXTargetDependency */,
+			);
+			name = MyGVUITests;
+			productName = MyGVUITests;
+			productReference = 9BF01CF01D01DEE80036F13F /* MyGVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BF01CC91D01DEE80036F13F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Saltmarch;
+				TargetAttributes = {
+					9BF01CD01D01DEE80036F13F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y4U5VE55S5;
+					};
+					9BF01CE41D01DEE80036F13F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9BF01CD01D01DEE80036F13F;
+					};
+					9BF01CEF1D01DEE80036F13F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9BF01CD01D01DEE80036F13F;
+					};
+				};
+			};
+			buildConfigurationList = 9BF01CCC1D01DEE80036F13F /* Build configuration list for PBXProject "MyGV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BF01CC81D01DEE80036F13F;
+			productRefGroup = 9BF01CD21D01DEE80036F13F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BF01CD01D01DEE80036F13F /* MyGV */,
+				9BF01CE41D01DEE80036F13F /* MyGVTests */,
+				9BF01CEF1D01DEE80036F13F /* MyGVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BF01CCF1D01DEE80036F13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF01CDC1D01DEE80036F13F /* Assets.xcassets in Resources */,
+				9BF01CDF1D01DEE80036F13F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF01CE31D01DEE80036F13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF01CEE1D01DEE80036F13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BF01CCD1D01DEE80036F13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF01CDA1D01DEE80036F13F /* MyGV.xcdatamodeld in Sources */,
+				9BF01CD71D01DEE80036F13F /* ViewController.swift in Sources */,
+				9BF01CD51D01DEE80036F13F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF01CE11D01DEE80036F13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF01CEA1D01DEE80036F13F /* MyGVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF01CEC1D01DEE80036F13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF01CF51D01DEE80036F13F /* MyGVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BF01CE71D01DEE80036F13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF01CD01D01DEE80036F13F /* MyGV */;
+			targetProxy = 9BF01CE61D01DEE80036F13F /* PBXContainerItemProxy */;
+		};
+		9BF01CF21D01DEE80036F13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF01CD01D01DEE80036F13F /* MyGV */;
+			targetProxy = 9BF01CF11D01DEE80036F13F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BF01CDD1D01DEE80036F13F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF01CDE1D01DEE80036F13F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BF01CF71D01DEE80036F13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BF01CF81D01DEE80036F13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9BF01CFA1D01DEE80036F13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyGV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.saltmarch.mygv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9BF01CFB1D01DEE80036F13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyGV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.saltmarch.mygv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		9BF01CFD1D01DEE80036F13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyGVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.saltmarch.MyGVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGV.app/Contents/MacOS/MyGV";
+			};
+			name = Debug;
+		};
+		9BF01CFE1D01DEE80036F13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyGVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.saltmarch.MyGVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGV.app/Contents/MacOS/MyGV";
+			};
+			name = Release;
+		};
+		9BF01D001D01DEE80036F13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyGVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.saltmarch.MyGVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyGV;
+			};
+			name = Debug;
+		};
+		9BF01D011D01DEE80036F13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyGVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.saltmarch.MyGVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyGV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BF01CCC1D01DEE80036F13F /* Build configuration list for PBXProject "MyGV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF01CF71D01DEE80036F13F /* Debug */,
+				9BF01CF81D01DEE80036F13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF01CF91D01DEE80036F13F /* Build configuration list for PBXNativeTarget "MyGV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF01CFA1D01DEE80036F13F /* Debug */,
+				9BF01CFB1D01DEE80036F13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BF01CFC1D01DEE80036F13F /* Build configuration list for PBXNativeTarget "MyGVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF01CFD1D01DEE80036F13F /* Debug */,
+				9BF01CFE1D01DEE80036F13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BF01CFF1D01DEE80036F13F /* Build configuration list for PBXNativeTarget "MyGVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF01D001D01DEE80036F13F /* Debug */,
+				9BF01D011D01DEE80036F13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BF01CD81D01DEE80036F13F /* MyGV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BF01CD91D01DEE80036F13F /* MyGV.xcdatamodel */,
+			);
+			currentVersion = 9BF01CD91D01DEE80036F13F /* MyGV.xcdatamodel */;
+			path = MyGV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9BF01CC91D01DEE80036F13F /* Project object */;
+}
